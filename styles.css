@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,600&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#cityName{
+    width: 80%;
+    border:none;
+    outline: none;
+    color: black;
+    border-bottom: 1.5px solid blueviolet;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    transition: ease-in-outs;
+}
+
+#cityName::placeholder{
+    font-weight: 600;
+    color: #726f6f;
+}
+
+
+#cityName:focus{
+    border-bottom: 2px solid rgb(8, 116, 240);
+    font-weight: 800;
+}
+
+
+#cityName:disabled{
+    transition: all 6s ease-out;
+    border: none;
+}
+
+.bi{
+    font-size: larger;
+}
+
+#info{
+    font-size: medium;
+    color: darkgray;
+    text-transform: uppercase;
+}
+
+#info >span{
+    font-weight: bold;
+    color: black;
+}
+
+.card > img{
+        object-fit: cover;
+        width:100%;
+        height:100%;
+}
